@@ -1,0 +1,43 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fav-blade-left" x1="6" y1="42" x2="24" y2="4" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4338CA" />
+      <stop offset="50%" stop-color="#6366F1" />
+      <stop offset="100%" stop-color="#818CF8" />
+    </linearGradient>
+    <linearGradient id="fav-blade-right" x1="24" y1="4" x2="42" y2="42" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#8B5CF6" />
+      <stop offset="50%" stop-color="#A855F7" />
+      <stop offset="100%" stop-color="#D946EF" />
+    </linearGradient>
+    <linearGradient id="fav-prism-core" x1="12" y1="26" x2="36" y2="26" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#06B6D4" />
+      <stop offset="50%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#6366F1" />
+    </linearGradient>
+    <radialGradient id="fav-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="40%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#6366F1" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Left Arch of 'A' -->
+  <path d="M24 5.5L7 41.5H16L24 24.5L24 5.5Z" fill="url(#fav-blade-left)" />
+
+  <!-- Right Arch of 'A' -->
+  <path d="M24 5.5L41 41.5H32L24 24.5L24 5.5Z" fill="url(#fav-blade-right)" />
+
+  <!-- Prism Crossbar -->
+  <path d="M13 29L24 21L35 29L29 32.5L24 28.5L19 32.5L13 29Z" fill="url(#fav-prism-core)" />
+
+  <!-- Apex Spark -->
+  <polygon points="24,5 26.5,12 24,10 21.5,12" fill="#FFFFFF" opacity="0.9" />
+
+  <!-- Center Neural Star -->
+  <g transform="translate(24, 21.5)">
+    <circle cx="0" cy="0" r="4.5" fill="url(#fav-glow)" opacity="0.8" />
+    <path d="M0 -5.5L1.4 -1.4L5.5 0L1.4 1.4L0 5.5L-1.4 1.4L-5.5 0L-1.4 -1.4Z" fill="#67E8F9" />
+    <circle cx="0" cy="0" r="1.2" fill="#FFFFFF" />
+  </g>
+</svg>

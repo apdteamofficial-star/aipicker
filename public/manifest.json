@@ -1,0 +1,18 @@
+{
+  "short_name": "AIPicker",
+  "name": "AIPicker: AI Tools Directory & Benchmarks",
+  "icons": [
+    {
+      "src": "/src/assets/logo.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192 512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#0f172a",
+  "theme_color": "#4f46e5",
+  "display": "standalone",
+  "orientation": "portrait",
+  "description": "Discover, compare, and benchmark the best AI tools and models."
+}

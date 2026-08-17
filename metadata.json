@@ -1,0 +1,6 @@
+{
+  "name": "AIPicker - AI Tools Directory & Comparison",
+  "description": "Comprehensive, human-curated directory, unbiased reviews, deep-dive comparison guides, and smart recommendation tools for AI software. Compliant with 2026 Google AdSense Quality & Transparency standards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
